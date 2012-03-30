@@ -1,0 +1,11 @@
+web_apps:
+  default:
+    web_app_dir: '/opt/trinidad/thing1'
+  thing2:
+    web_app_dir: '/opt/trinidad/thing2'
+extensions:
+  postgresql_dbpool:                                   
+    jndi: 'jdbc/trinidad'                           
+    username: 'postgres'                              
+    password: 'Passw0rd'                              
+    url: 'jdbc:postgresql://localhost:5432/trinidad'
